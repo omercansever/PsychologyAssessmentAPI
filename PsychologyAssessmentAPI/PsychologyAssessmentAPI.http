@@ -1,0 +1,6 @@
+@PsychologyAssessmentAPI_HostAddress = http://localhost:5128
+
+GET {{PsychologyAssessmentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
