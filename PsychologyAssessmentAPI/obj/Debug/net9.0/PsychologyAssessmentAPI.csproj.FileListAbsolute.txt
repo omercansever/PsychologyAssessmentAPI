@@ -165,3 +165,4 @@ C:\Users\omerc\PsychologyAssessmentAPI\PsychologyAssessmentAPI\obj\Debug\net9.0\
 C:\Users\omerc\PsychologyAssessmentAPI\PsychologyAssessmentAPI\obj\Debug\net9.0\PsychologyAssessmentAPI.pdb
 C:\Users\omerc\PsychologyAssessmentAPI\PsychologyAssessmentAPI\obj\Debug\net9.0\PsychologyAssessmentAPI.genruntimeconfig.cache
 C:\Users\omerc\PsychologyAssessmentAPI\PsychologyAssessmentAPI\obj\Debug\net9.0\ref\PsychologyAssessmentAPI.dll
+C:\Users\omerc\PsychologyAssessmentAPI\PsychologyAssessmentAPI\obj\Debug\net9.0\PsychologyAssessmentAPI.sourcelink.json
