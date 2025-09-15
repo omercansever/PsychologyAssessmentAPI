@@ -1,11 +1,6 @@
 namespace PsychologyAssessmentAPI.Models.DTOs
 {
-    public class CategoryDto
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string? Description { get; set; }
-    }
+    // Removed duplicate CategoryDto class definition to resolve compilation error
 
     public class CreateCategoryDto
     {

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PsychologyAssessmentAPI.Data;
+using PsychologyAssessmentAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 
 // Services
 builder.Services.AddScoped<PsychologyAssessmentAPI.Services.IAssessmentService, PsychologyAssessmentAPI.Services.AssessmentService>();
+builder.Services.AddScoped<IPsychologistService, PsychologistService>();
 
 // CORS yapılandırması (frontend için)
 builder.Services.AddCors(options =>

@@ -17,10 +17,5 @@ namespace PsychologyAssessmentAPI.Models.DTOs
         public int CategoryId { get; set; }
     }
 
-    public class QuestionForAssessmentDto
-    {
-        public int Id { get; set; }
-        public string Text { get; set; }
-        public string CategoryName { get; set; }
-    }
+    
 }

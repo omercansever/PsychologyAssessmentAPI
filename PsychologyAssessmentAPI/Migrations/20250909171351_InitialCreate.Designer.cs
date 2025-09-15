@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PsychologyAssessmentAPI.Data;
 
@@ -11,9 +12,11 @@ using PsychologyAssessmentAPI.Data;
 namespace PsychologyAssessmentAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250909171351_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -126,9 +129,6 @@ namespace PsychologyAssessmentAPI.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<int>("ProfessionalType")
-                        .HasColumnType("int");
-
                     b.Property<string>("Specialization")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -158,7 +158,6 @@ namespace PsychologyAssessmentAPI.Migrations
                             Latitude = 40.758899999999997,
                             Longitude = 30.342500000000001,
                             PhoneNumber = "+90 532 123 4567",
-                            ProfessionalType = 0,
                             Specialization = "Klinik Psikoloji"
                         },
                         new
@@ -172,7 +171,6 @@ namespace PsychologyAssessmentAPI.Migrations
                             Latitude = 40.780799999999999,
                             Longitude = 30.403400000000001,
                             PhoneNumber = "+90 532 987 6543",
-                            ProfessionalType = 0,
                             Specialization = "Çocuk Psikolojisi"
                         },
                         new
@@ -186,7 +184,6 @@ namespace PsychologyAssessmentAPI.Migrations
                             Latitude = 40.772500000000001,
                             Longitude = 30.389700000000001,
                             PhoneNumber = "+90 532 555 1234",
-                            ProfessionalType = 0,
                             Specialization = "Aile Danışmanlığı"
                         });
                 });
