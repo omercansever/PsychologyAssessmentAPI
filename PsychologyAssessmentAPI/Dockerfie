@@ -10,7 +10,7 @@ RUN dotnet restore "./PsychologyAssessmentAPI.csproj"
 COPY . .
 RUN dotnet publish "PsychologyAssessmentAPI.csproj" -c Release -o /app/publish
 
-FROM base AS final
+FROM base AS finalf
 WORKDIR /app
 COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "PsychologyAssessmentAPI.dll"]

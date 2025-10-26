@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PsychologyAssessmentAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4a3bdb8d433a71948c512ecd6afc96ae8507b40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87ac17bd4c36ead2a4c33dd55cd69b93e147bb4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PsychologyAssessmentAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PsychologyAssessmentAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
